@@ -30,6 +30,6 @@ export const updateContato = async(
 };
 
 export const getContatoById = async(id: string) => {
-    const response = await api.get<Contato>(`contatos/${id}`);
+    const response = await api.get<Contato>(`/contatos/${id}`);
     return response.data;
 }
