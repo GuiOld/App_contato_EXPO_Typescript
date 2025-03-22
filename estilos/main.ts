@@ -36,6 +36,13 @@ export const styles = StyleSheet.create({
       borderRadius: 5, 
       alignItems: "center" 
   },
+  botaoEditar: { 
+    backgroundColor: "blue", 
+      padding: 10, 
+      marginTop: 20, 
+      borderRadius: 5, 
+      alignItems: "center" 
+},
     textoBotao: { 
       color: "white", 
       fontSize: 16 
@@ -52,3 +59,5 @@ export const styles = StyleSheet.create({
         marginBottom: 10
       },
   });
+
+export default styles;
